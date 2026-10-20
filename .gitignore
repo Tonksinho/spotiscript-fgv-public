@@ -1,0 +1,83 @@
+# SpotiScript - Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Secrets e credenciais (CRÍTICO)
+*.json
+!requirements*.json
+dados-spotify-*.json
+service-account*.json
+*-credentials.json
+credentials*.json
+
+# Tokens e variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.token
+*.bearer
+
+# Logs e dados gerados
+*.log
+spotiscrap.log
+fgv-spotify-backup.jsonl
+*.jsonl
+data/
+*.xlsx
+*.csv
+!requirements*.csv
+
+# Arquivos temporários do harvester
+spotify_creators_operations.json
+spotify_creators_operations.json.tmp
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup de refatoração
+spotiscrap_legacy.py
+
+# Outros
+*.tmp
+*.bak
+
+# Repo Git separado (powerbi-dashboards)
+powerbi-dashboards/
+# Perfis de navegador e materiais de autenticacao
+chrome-profile/
+*storage_state*
+*.pem
+*.key
